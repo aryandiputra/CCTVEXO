@@ -1,0 +1,4 @@
+<resources>
+    <string name="buffering">Buffering</string>
+    <string name="kvv_adaptive_track">Auto</string>
+</resources>

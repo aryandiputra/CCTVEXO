@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/ryandzhunter/CCTVEXO/library/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/ic_white_drag_player.png",
+        "source": "/Users/ryandzhunter/CCTVEXO/library/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_white_drag_player.png"
+    },
+    {
+        "merged": "/Users/ryandzhunter/CCTVEXO/library/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/ic_white_sd.png",
+        "source": "/Users/ryandzhunter/CCTVEXO/library/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_white_sd.png"
+    },
+    {
+        "merged": "/Users/ryandzhunter/CCTVEXO/library/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/ic_white_hd.png",
+        "source": "/Users/ryandzhunter/CCTVEXO/library/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_white_hd.png"
+    },
+    {
+        "merged": "/Users/ryandzhunter/CCTVEXO/library/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/ic_white_exit.png",
+        "source": "/Users/ryandzhunter/CCTVEXO/library/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_white_exit.png"
+    },
+    {
+        "merged": "/Users/ryandzhunter/CCTVEXO/library/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/ic_white_3_g.png",
+        "source": "/Users/ryandzhunter/CCTVEXO/library/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_white_3_g.png"
+    },
+    {
+        "merged": "/Users/ryandzhunter/CCTVEXO/library/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/ic_white_pause.png",
+        "source": "/Users/ryandzhunter/CCTVEXO/library/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_white_pause.png"
+    },
+    {
+        "merged": "/Users/ryandzhunter/CCTVEXO/library/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/ic_white_fullscreen.png",
+        "source": "/Users/ryandzhunter/CCTVEXO/library/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_white_fullscreen.png"
+    },
+    {
+        "merged": "/Users/ryandzhunter/CCTVEXO/library/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/ic_white_play_arrow.png",
+        "source": "/Users/ryandzhunter/CCTVEXO/library/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_white_play_arrow.png"
+    },
+    {
+        "merged": "/Users/ryandzhunter/CCTVEXO/library/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/ic_white_auto.png",
+        "source": "/Users/ryandzhunter/CCTVEXO/library/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_white_auto.png"
+    }
+]

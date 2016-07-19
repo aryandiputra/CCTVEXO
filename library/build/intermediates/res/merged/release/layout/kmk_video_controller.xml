@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true">
+  <View
+      android:id="@+id/kvv_popup_anchor"
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      android:layout_centerHorizontal="true"
+      android:layout_alignParentTop="true"
+  />
+
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_above="@+id/container_video_time"
+      android:clickable="false">
+    <ImageView
+        android:id="@+id/image_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_white_pause"
+        android:layout_gravity="center"
+        android:visibility="invisible" />
+
+  </FrameLayout>
+
+  <LinearLayout
+      android:id="@+id/container_video_time"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="0dp"
+      android:orientation="vertical"
+      android:layout_alignParentBottom="true"
+      android:gravity="center"
+      android:background="@drawable/alpha_to_black">
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/kvv_small_padding"
+        android:paddingLeft="@dimen/kvv_controller_padding"
+        android:paddingRight="@dimen/kvv_controller_padding"
+        android:progressDrawable="@drawable/red_progress"
+        android:thumb="@drawable/ic_white_drag_player"
+        tools:progress="100"
+        tools:secondaryProgress="150"
+        tools:max="200"
+    />
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/kvv_controller_padding"
+        android:paddingRight="@dimen/kvv_controller_padding"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+      <TextView
+          android:id="@+id/text_current_time"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical"
+          android:textColor="@color/kvv_white"
+          android:text="00:00" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical"
+          android:textColor="@color/kvv_white"
+          android:text=" / "
+      />
+      <TextView
+          android:id="@+id/text_total_time"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical"
+          android:textColor="@color/kvv_white"
+          android:text="00:00" />
+      <View
+          android:layout_width="0dp" android:layout_height="0dp"
+          android:layout_weight="1"
+      />
+      <ImageView
+          android:id="@+id/change_video_track"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingLeft="@dimen/kvv_small_padding"
+          android:paddingRight="@dimen/kvv_small_padding"
+          android:visibility="invisible"
+          android:src="@drawable/ic_white_auto" />
+      <ImageView
+          android:id="@+id/request_fullscreen"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingLeft="@dimen/kvv_small_padding"
+          android:paddingRight="@dimen/kvv_small_padding"
+          android:visibility="invisible"
+          android:src="@drawable/ic_white_fullscreen"
+      />
+    </LinearLayout>
+  </LinearLayout>
+</RelativeLayout>
+

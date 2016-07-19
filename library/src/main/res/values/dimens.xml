@@ -1,0 +1,24 @@
+<resources>dimen.xm
+  <dimen name="kvv_tiny_margin">2dp</dimen>
+  <dimen name="kvv_small_margin">4dp</dimen>
+  <dimen name="kvv_medium_margin">8dp</dimen>
+  <dimen name="kvv_large_margin">16dp</dimen>
+  <dimen name="kvv_extra_large_margin">18dp</dimen>
+
+  <dimen name="kvv_tiny_padding">2dp</dimen>
+  <dimen name="kvv_small_padding">4dp</dimen>
+  <dimen name="kvv_medium_padding">8dp</dimen>
+  <dimen name="kvv_middle_padding">12dp</dimen>
+  <dimen name="kvv_large_padding">16dp</dimen>
+
+  <dimen name="kvv_micro_text">9sp</dimen>
+  <dimen name="kvv_tiny_11_text">11sp</dimen>
+  <dimen name="kvv_tiny_text">12sp</dimen>
+  <dimen name="kvv_small_text">14sp</dimen>
+  <dimen name="kvv_normal_text">16sp</dimen>
+  <dimen name="kvv_medium_text">18sp</dimen>
+  <dimen name="kvv_middle_text">20sp</dimen>
+  <dimen name="kvv_large_text">22sp</dimen>
+  <dimen name="kvv_huge_text">24sp</dimen>
+  <dimen name="kvv_controller_padding">16dp</dimen>
+</resources>
